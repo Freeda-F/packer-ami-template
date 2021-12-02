@@ -36,9 +36,11 @@ $ packer --version
 2. cd into the packer folder in the cloned repository.
 
 3. Run the following commands : 
+ ```
 packer init main.pkr.hcl
 packer validate main.pkr.hcl
 packer build main.pkr.hcl
+````
 
 This will provision the AMI in you AWS account.
 
