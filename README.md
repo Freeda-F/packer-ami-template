@@ -33,7 +33,7 @@ $ packer --version
 
 1. The environment vaiables has to be set in the vaiables section of the main build file : AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 
-2. cd into the packer folder in the cloned repository.
+2. cd into the packer folder with the files from the cloned repository.
 
 3. Run the following commands : 
  ```
