@@ -1,3 +1,4 @@
+############################################# Variable declaration Section #############################################
 variable "ami_name" {
   type    = string
   default = "linux-web-app"
@@ -12,6 +13,8 @@ variable "secret_key" {
   type    = string
   default = "9dKUtv69yeOqHHps6BezJP31DWxKJhsIxXU5Hs3C"
 }
+
+############################################# Image creation Section #############################################
 
 source "amazon-ebs" "Webserver-VM" {
   ami_name                    = "${var.ami_name}"
