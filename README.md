@@ -46,6 +46,6 @@ This will provision the AMI in you AWS account.
 
 
 ### Results
-An AMI has been created using packer. Now, you can use the AMI to launch an EC2 instance which will have the web application pre configured and ready to use.
+An AMI has been created using packer. Now, you can use the AMI to launch an EC2 instance which will have the HTML web application pre configured and ready to use.
 
 
